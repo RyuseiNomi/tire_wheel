@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	purchase_options := []string{"店でも", "Webでも"}
+	purchase_options := []string{"店でも！", "Webでも！"}
 
 	for i := 0; i < 8; i++ {
 		fmt.Print(extract(purchase_options))
